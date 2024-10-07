@@ -1,0 +1,4 @@
+[] Quando o objeto `obj_spinner_clockwise_bounce_low_speed` ou 
+`obj_spinner_counterclockwise_bounce_low_speed_1` colide com o `obj_ball`, 
+ele incrementa a velocidade do `obj_ball`, fazendo com que este 
+continue na mesma direção que o jogador pressionou anteriormente (up, down, right, left).

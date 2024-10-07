@@ -1,0 +1,1 @@
+rotation_rate = 2.75;

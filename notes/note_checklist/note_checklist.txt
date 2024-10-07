@@ -1,0 +1,26 @@
+[X] o player pode só pode realizar 3 movimentos
+[X] se o player realizar mais de 3 movimentos ele morre
+[X] cada fase tem o mesmo tamanho
+- o player não pode colidir com as paredes da fase
+[] há 2 tipos de obstáculos 
+	[] obstáculos giratório com as velocidades 
+		[X] lenta 
+		[] média
+		[X] rápida 
+	[] obstáculos colisores, eles ficam uma posição inicial e vão em direção a uma parede
+		[] os obstáculos colisores tem 3 velocidades
+			[] lenta 
+			[] média
+			[] rápida 
+- os obstáculos colisores causam um balanço na câmera, o com velocidade lenta não causa, o de velocidade causa pouco balanço e o rápido causa bastante balanço
+- quando o player se move, ele deixa uma sombra que vai se esvaindo 
+- as paredes têm espinhos 
+- o jogo tem 15 fases
+- conforme o jogo avança nos níveis, os valores de velocidade, como obstáculos giratórios, aumenta, tempo para os obstáculos colisores se colidirem com as paredes, diminui, a velocidade do player aumenta, tanto verticalmente como horizontalmente
+- o jogador vence o jogo quando completar as 15 fases
+- o jogador perde quando morre
+- o jogador pode reiniciar o jogo após morrer
+- o jogador perde quando fecha o jogo
+- itens coletáveis para conquistas
+- toda vez que o jogador se move, a câmera de mexe
+- 
