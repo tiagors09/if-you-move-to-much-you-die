@@ -4,10 +4,10 @@ if(global.lives >= 0) {
 	global.lives -= 1;
 	
 	instance_create_layer(
-	x,
-	y,
-	global.instace_layer_name,
-	obj_ghost
-);
+		x,
+		y,
+		global.instace_layer_name,
+		obj_ghost
+	);	
 }
 
