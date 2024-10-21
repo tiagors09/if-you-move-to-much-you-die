@@ -1,13 +1,14 @@
 vspeed = lerp(
 	vspeed,
-	.001,
+	0,
 	decrease_rate
 );
 
 hspeed = lerp(
 	hspeed,
-	.001,
+	0,
 	decrease_rate
 );
 
-if(global.lives <= -1) room_restart();
+if(global.lives <= -1) 
+	room_restart();
