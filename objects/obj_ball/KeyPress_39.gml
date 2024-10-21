@@ -8,5 +8,5 @@ if(global.lives >= 0) {
 		y,
 		global.instace_layer_name,
 		obj_ghost
-	);
+	);	
 }
