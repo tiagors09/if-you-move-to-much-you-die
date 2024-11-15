@@ -6,7 +6,7 @@ for (var _i = 0; _i < global.lives; _i++) {
 	draw_sprite(
 		spr_ball,
 		0,
-		_live_x_pos + live_sprite_offset + (_margin * _i),
-		_live_y_pos + live_sprite_offset
+		_live_x_pos - live_sprite_offset + (_margin * _i),
+		_live_y_pos - live_sprite_offset
 	);
 }
